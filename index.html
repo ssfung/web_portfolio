@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=>, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      integrity="sha384-z1sowOeBpF5LRk8oTfAc3cWB87Vwbs0qrQE5DOejTOIbHmBqwbn9Y8806KLNIm9T"
-      href="./style.css"
-    />
-    <title>Su Su's Web Portfolio</title>
-  </head>
-  <body>
-    <nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <nav>
+    <div class ="nav-container">
       <a href="#" id="about">Home</a>
-      <a href="#" id="work">work</a>
+      <a href="#" id="about">About me</a>
+      <a href="#" id="work">Skills</a>
       <a href="#" id="blog">Blog</a>
       <a href="#" id="contact">Contact</a>
+      </div>
     </nav>
     <section>
       <!-- This will be the homepage -->
-      <div class="homepage">
-        <p>Hello</p>
+      <div class="website-content">
+        <div class="homepage-content">
+        <h2>Hello</h2>
         <p>I'm Su Su Fung, a software developer</p>
         <p>living in Melbourne, Australia</p>
+      </div>
       </div>
     </section>
     <section>
@@ -68,14 +69,15 @@
           <div class =blogpost 3>
           <img src=# alt = "picture of a city"> 
           </div>
+          <div class="button">
+          <a class="btn" href="./hongkong.html">View more</a>
+          </div>
       </div>
     </section>
     <section>
       <!-- this is a contact me section -->
-      <div>
-            <form action="https://formspree.io/xwkqzpqg" method="POST">
-<p>Let's keep in touch</p>
-        <form>
+        <form action="https://formspree.io/xwkqzpqg" method="POST">
+        <p>Let's keep in touch</p>
           <label for "name">Name</label>
           <input ="name" type="text" placeholder="Name" name="name" id="name">
           <label for "email">Email Address</label>
@@ -83,17 +85,20 @@
           <div class="submit">
           <label for "subject">Subject</label>
           <input for "subject" type"text" placeholder="subject" name="subject" id="subject">
-          <input for "message" type"textarea" placeholder="Write a small message" name="message" id="subject">
+          <label for "message">Message</label>
+          <textarea id ="message" name=message placeholder="Leave a message!" id="message"></textarea>
             <input type="submit" value="send">
+            </div>
           </form>
           </div>
         </form>
-      </div>
+      
     </section>
     <footer>
       <div class="footer">
         Made with love | Melbourne Australia
       </div>
     </footer>
-  </body>
+    <div>
+</body>
 </html>

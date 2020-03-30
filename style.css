@@ -1,7 +1,49 @@
-body {
-  background-color: cornflowerblue;
+*{
+  margin:0px;
+  padding:0px;
 }
-h1 {
-  font-size: 50px;
+body{
+  background:rgba(225,173,157);
+  
+
+}
+.website-content{
+  display:flex;
+  justify-content:center;
+  align-content: center;
+  width: calc(100%-120px);
+  margin:0px auto;
+  flex-direction:column
+  
 }
 
+nav{
+  font-size:25px;
+  text-decoration:none;
+  width:100vw;
+  height:80px;
+  background-color:#FCF5E5;
+  position:fixed;
+  display:flex;
+  align-content: center;
+  justify-content: flex-end;
+  align-items:center;
+  
+}
+
+.nav-container a {
+margin-left:20px;
+margin-right:5px;
+text-decoration:none;
+color:#69626D;
+
+}
+
+
+.homepage{
+width:100vw;
+height:750px;
+font: black;
+}
+
+.
