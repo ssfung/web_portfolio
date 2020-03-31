@@ -157,12 +157,29 @@ margin-top:20px;
   background-color: #EEE5E5;
   display: flex;
   justify-content: center;
+  align-items: center; 
+  
+}
+.contact-title{
+  display:flex;
+  justify-content:flex-start;
   align-items: center;
+  display:inline;
+  padding-right:30px;
 }
-.contact-me h1 {
-  margin-right:60px;
-  margin-bottom:300px;
+
+
+.social-icons{
+  display:flex;
+  justify-content:center;
+  align-items:row;
+  color:transparent;
+  text-decoration:none;
+  margin-top:15px;
+ 
+ 
 }
+
 
 form {
   display:flex;
@@ -171,12 +188,12 @@ form {
   
 }
 
-form h1 {
+/* form h1 {
   width:1000px;
   margin:50px auto;
   font-size:30px;
   
-}
+} */
 .submit{
   display:flex;
   flex-direction:column;
@@ -206,4 +223,10 @@ form h1 {
   font-size:20px;
   color:black;
   padding:15px;
+}
+
+.footer{
+  height:30px;
+  background: #ECEBE4;
+  text-align:Center;
 }
