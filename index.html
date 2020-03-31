@@ -12,15 +12,16 @@
 <body>
   <nav>
     <div class ="nav-container">
-      <a href="#" id="about">Home</a>
-      <a href="#" id="about">About me</a>
-      <a href="#" id="work">Skills</a>
-      <a href="#" id="blog">Blog</a>
-      <a href="#" id="contact">Contact</a>
+      <a href="#homepage">Home</a>
+      <a href="#about">About me</a>
+      <a href="#skills">Skills</a>
+      <a href="#blog" >Blog</a>
+      <a href="#contact">Contact</a>
       </div>
     </nav>
     <section>
       <!-- This will be the homepage -->
+      <div id = "homepage"></div>
       <div class="homepage-wrapper">
         <div class="homepage-content">
         <h1>Hello!</h1>
@@ -33,23 +34,26 @@
     <section>
 
       <!-- This is an About me section -->
+      <div id="about"></div>
       <div class="about-me-wrapper">
         <div class= "about-me-content">
          <p>Currently a Student at Coder Academy, Pharmacist and running an <a href="www.patriciathelabel.com"> online store.</a> Previously a Retail manager at <a href="www.monards.com.au">Monards</a>
-          <p>In my spare time, I love trying out new cafes, exploring different cities and writing about my adventures <a href=all-blog.html>here</a>.</p>
+          <p>In my spare time, I love trying out new cafes, exploring different cities and writing about my adventures <a href="./all-blog.html">here</a>.</p>
           <!-- <div class="reading">
             <p>Currently: How to sleep</p>
             <p>previously: Enchanted</p>
             <p>Future:Atomic Habits</p>
             </div> -->
             </div>
-      <div class = "profile-pic" img src="https://images.pexels.com/photos/132713/pexels-photo-132713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="image of susu fung">
+      <img src="./profile.png" id="profile-pic" alt="image of susu fung">
       </div>
       </div>
     </section>
     <section>
       <!-- This section is about the skills I've learnt -->
+      <div id="skills"></div>
       <div class="skills-container">
+        
         <div class="current-skills">
           <h3>Skills-</h3>
           <p><i class="devicon-ruby-plain">Ruby</i> <i class="fab fa-html5">HTML</i>  <i class="fab fa-css3-alt">CSS</i></p>
@@ -60,16 +64,19 @@
     </section>
     <section>
       <!-- Blogpost  -->
+      <div id="blog"></div>
       <div class =blogpost-container>
+        
         <div class ="blog-content">
         <div class ="blogpost-1">
-          <img src="https://images.pexels.com/photos/3391830/pexels-photo-3391830.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" href="./hongkong.html" alt = "HongKong"> 
+          <a href="./hongkong.html"><img src="https://images.pexels.com/photos/1525612/pexels-photo-1525612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Hongkong"></a>
+
           </div>
           <div class ="blogpost-2">
-          <img src="https://images.pexels.com/photos/1850609/pexels-photo-1850609.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" href=./paris.html alt = "Paris"> 
+     <a href="./sydney.html"><img src="https://images.pexels.com/photos/1525612/pexels-photo-1525612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Sydney"></a>
           </div>
-          <div class ="blogpost-3">
-          <img src="https://images.pexels.com/photos/345750/pexels-photo-345750.jpeg?cs=srgb&dl=architecture-bay-beach-bridge-345750.jpg&fm=jpg" href =./san-francisco.html alt = "San Francisco"> 
+          <div class ="blogpost-3"> 
+          <a href="./paris.html"><img src="https://images.pexels.com/photos/1525612/pexels-photo-1525612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="paris"></a>
           </div>
            </div>
           <div class="button">
@@ -79,23 +86,23 @@
     </section>
     <section>
       <!-- this is a contact me section -->
+      <div id="contact"></div>
       <div class="contact-me">
+        <h1>Let's keep in touch...</h1>
         <div class="contact-form">
         <form action="https://formspree.io/xwkqzpqg" method="POST">
-        <p>Let's keep in touch</p>
-          <label for="name">Name</label>
+          <!-- <label for="name">Name</label> -->
           <input for ="name" type="text" placeholder="Name" name="name" id="name">
-          <label for ="email">Email Address</label>
+          <!-- <label for ="email">Email Address</label> -->
           <input for="email" type="email" placeholder="Email Adress" name="email-address" id="email-address">
           <div class="submit">
-          <label for="subject">Subject</label>
+          <!-- <label for="subject">Subject</label> -->
           <input for="subject" type"text" placeholder="subject" name="subject" id="subject">
-          <label for="message">Message</label>
-          <textarea id ="message" name=message placeholder="Leave a message!" id="message"></textarea>
-            <input type="submit" value="send">
+          <!-- <label for="message">Message</label> -->
+          <textarea id ="message" name=message placeholder="Leave a message....."></textarea>
+            <input type="submit" value="Submit" id="submit">
             </div>
             </div>
-          </form>
           </div>
         </form>
       </div>
