@@ -56,7 +56,6 @@ h1 {
   display:flex;
   justify-content:center;
   align-items:center;
-  z-index:-1
   
 }
 
@@ -65,13 +64,11 @@ h1 {
   width: 30vw;
   padding-top: 120px;
   font: black;
-  position:relative;
+
 }
 .profile-pic {
   height:500px;
   width: 400px;
-  position:relative;
-  z-index:1000;
   
 }
 .currently {
@@ -147,4 +144,6 @@ display:flex;
 justify-content: center;
 align-items:center;
 flex-direction:column;
+font-size: 25px;
+margin-top:20px;
 }
