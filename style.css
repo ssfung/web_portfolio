@@ -164,12 +164,6 @@ margin-top:20px;
   margin-bottom:300px;
 }
 
-.contact-me h1 mark {
-  display: inline-block;
-  line-height: 0em;
-  padding-bottom: 0.5em;
-}
-
 form {
   display:flex;
   flex-direction:column;
@@ -179,7 +173,7 @@ form {
 
 form h1 {
   width:1000px;
-  margin:50px auto
+  margin:50px auto;
   font-size:30px;
   
 }
