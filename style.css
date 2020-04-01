@@ -20,6 +20,10 @@ nav {
   
 }
 
+nav .nav-dropdown{
+  display:none
+
+}
 .nav-container a {
   margin-left: 20px;
   margin-right: 5px;
@@ -227,28 +231,40 @@ form {
   text-align:Center;
 }
 
+/* media query for html page */
 @media only screen and (max-width:480px) {
-nav{
-  display:inline-block;
-  height:200px;
-  position:relative;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+nav .nav-dropdown{
   list-style-type: none;
   text-decoration:none;
-  text-align:center;
+      display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  
+
 }
+nav{
+  height:150px;
+  position:relative;    
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+} 
 
 nav .nav-dropdown a{
   text-decoration:none;
-  font-color:black;
+  color:black;
+
 
 }
 nav .nav-container{
   display:none;
 }
-
+.homepage-content {
+  padding-top:200px;
+}
 .about-me-wrapper {
   display:flex;
   flex-direction:column;
