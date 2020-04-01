@@ -59,10 +59,12 @@ nav .nav-dropdown{
 .homepage-content h1 {
   font-size: 100px;
   font-style:italic;
+  color:white;
 }
 
 .homepage-content p {
   font-size: 30px;
+  color:white;
 }
 .about-me-wrapper {
   width: 100vw;
