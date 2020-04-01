@@ -7,10 +7,10 @@
 /* main nav bar */
 
 #main {
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: none;
   width: 100vw;
-  height: 70px;
+  height: 60px;
   background-color: #fcf5e5;
   position: fixed;
   display: flex;
@@ -27,16 +27,6 @@
   padding-right:30px;
 }
 
-
-.blogpage-wrapper{
-  background-color:#F2D0D0;
-  width:100vw;
-  height:100vh;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-
-}
 /* side nav bar on blog posts */
 #side{
   width:250px;
@@ -52,7 +42,7 @@
   color:#69626D;
   text-align:center;
   display:block;
-  font-size:25px;
+  font-size:20px;
 }
 
 #side a{
@@ -67,10 +57,20 @@
 }
 
 /* blogpost body */
+
+.blogpage-wrapper{
+  background-color:#F2D0D0;
+  width:100vw;
+  height:1500px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
 .blogpage-body{
   margin-top:50px;
   width:600px;
   font-size:20px;
+  height:100%;
   
 }
 .blogpage-content{
@@ -87,9 +87,10 @@
   text-align:center
   
 }
-.words img{
-  margin: 0px auto;
-  padding:30px;
+.blogpost-1 img{
+    display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 .words p {
@@ -104,4 +105,10 @@
   color:#6D454C;
   padding-bottom:25px;
 
+}
+
+.footer{
+  height:30px;
+  background: #ECEBE4;
+  text-align:Center;
 }
