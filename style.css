@@ -32,6 +32,7 @@ nav .nav-dropdown{
   padding-right:30px;
 }
 
+
 .homepage-wrapper {
   width: 100vw;
   height: 1000px;
@@ -49,8 +50,10 @@ nav .nav-dropdown{
   font: black;
 
 }
-.homepage-content{
-  text-decoration:none;
+.homepage-content a{
+  text-decoration:underline;
+  color:black;
+  
 }
 .homepage-content h1 {
   font-size: 100px;
@@ -78,6 +81,11 @@ nav .nav-dropdown{
 .about-me-content p {
  padding:10px;
 }
+.about-me-content a {
+ text-decoration:underline;
+ color:black;
+}
+
 #profile-pic {
   padding-top:50px;
   height:40%;
@@ -152,15 +160,15 @@ margin-top:20px;
 }
 .blog-content img{
   height: 500px;
-  width:50%
+  /* width:50%; */
   display:flex;
   align-items:center;
   justify-content:center;
+  margin-bottom:20px;
 }
 
-.button{
-  margin-top:20px;
-  text-decoration:none;
+.btn{
+  text-decoration:underline;
   color:black;
   font-size:20px;
 }
@@ -222,6 +230,7 @@ form {
   font-size:20px;
   color:black;
   padding:15px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /* footer */
