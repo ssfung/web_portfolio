@@ -4,6 +4,8 @@
 }
 
 
+/* main nav bar */
+
 #main {
   font-size: 25px;
   text-decoration: none;
@@ -34,7 +36,7 @@
   align-items:center;
 
 }
-
+/* side nav bar on blog posts */
 #side{
   width:250px;
   background-color:transparent;
@@ -63,6 +65,7 @@
   text-decoration-style: wavy;
 }
 
+/* blogpost body */
 .blogpage-body{
   width:600px;
   font-size:20px;
@@ -91,7 +94,7 @@
   font-size: 
 
 }
-
+/* blogpost date */
 #date {
   text-align:center;
   font-size: 15px;

@@ -46,11 +46,8 @@ nav {
   padding-top: 120px;
   flex-direction: column;
   font: black;
+}
 
-}
-.homepage-content{
-  text-decoration:none;
-}
 .homepage-content h1 {
   font-size: 100px;
 }
@@ -132,22 +129,21 @@ margin-top:20px;
   display: flex;
   justify-content:center;
   align-items: center;
-  width:100% ;
+  width:100%
 }
 
 .blogpost {
-  width:50%;
+  width:25%
   /* change to get images to look right */
 }
 
-.blogpost-1 img {
+.blogpost img {
   height: 500px;
   width: 100%;
+  margin-right: 30px;
 }
-
-.blogpost-2 img {
-  height: 500px;
-  width: 100%;
+.blogpost:last-child img{
+  margin-right:10px;
 }
 
 /* contact form header */
@@ -162,16 +158,26 @@ margin-top:20px;
 }
 .contact-title{
   display:flex;
-  justify-content:center;
+  justify-content:flex-start;
   align-items: center;
   display:inline;
-  margin-left:10px;
+  padding-right:30px;
 }
 
 
+.social-icons{
+  display:flex;
+  justify-content:center;
+  align-items:row;
+  color:transparent;
+  text-decoration:none;
+  margin-top:15px;
+ 
+ 
+}
 
 /* contact form fill in */
-form {
+form h1 {
   display:flex;
   flex-direction:column;
   width: 500px;
