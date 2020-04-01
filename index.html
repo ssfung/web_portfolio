@@ -10,6 +10,7 @@
 
 </head>
 <body>
+  <!-- nav bar at the top fixed  -->
   <nav>
     <div class ="nav-container">
       <a href="#homepage">Home</a>
@@ -27,7 +28,7 @@
         <h1>Hello.</h1>
         <p>I'm Su Su Fung, a software developer</p>
         <p>living in Melbourne, Australia.</p>
-       <p><a href="https://github.com/ssfung">github</a> / <a href="./portfolio-resume.docx">resume</a> / <a href= "https://www.linkedin.com/in/suet-suet-fung"> linkedin</a> </p>
+       <p><a href="https://github.com/ssfung" name="github">github</a> / <a href="./portfolio-resume.docx" name="resume">resume</a> / <a href= "https://www.linkedin.com/in/suet-suet-fung" name="linkedin"> linkedin</a> </p>
       </div>
       </div>
       </section>
@@ -38,10 +39,10 @@
       <div id="about"></div>
       <div class="about-me-wrapper">
         <div class= "about-me-content">
-         <p><i>Currently</i> a Student at Coder Academy, Pharmacist and running an <a href="http://www.patriciathelabel.com"> online store</a>. Previously a Retail manager at <a href="http://www.monards.com.au">Monards</a>.
-          <p>In my spare time, I love trying out new cafes, exploring different cities and writing about my adventures <a href="./hongkong.html">here</a>.</p>
+         <p><i>Currently</i> a Student at Coder Academy, Pharmacist and running an <a href="http://www.patriciathelabel.com" name ="hairclip-store"> online store</a>. Previously a Retail manager at <a href="http://www.monards.com.au" name="watch-store">Monards</a>.
+          <p>In my spare time, I love trying out new cafes, exploring different cities and writing about my adventures <a href="./hongkong.html" name="link-to-blog">here</a>.</p>
             </div>
-      <img src="./profile.png" id="profile-pic" alt="image of susu fung">
+      <img src="./profile.png" id="profile-pic" name="profile-image" alt="image of susu fung">
       </div>
       </div>
     </section>
@@ -53,7 +54,7 @@
           <h3>Skills-</h3>
           <p><i class="devicon-ruby-plain">Ruby</i> <i class="fab fa-html5">HTML</i>  <i class="fab fa-css3-alt">CSS</i></p>
           <h3>In the near <i>future</i>...</h3>
-         <p> <i class="devicon-react-original">React</i>  <i class="devicon-mongodb-plain">Mongo DB</i></p><p><i class="devicon-rails-plain">Ruby on Rails</i> <i class="devicon-javascript-plain">JavaScript</i>  <i class="devicon-nodejs-plain">NodeJS</i></p>
+         <p> <i class="devicon-react-original" name ="logo">React</i>  <i class="devicon-mongodb-plain" name ="logo">Mongo DB</i></p><p><i class="devicon-rails-plain" name ="logo">Ruby on Rails</i> <i class="devicon-javascript-plain" name ="logo">JavaScript</i>  <i class="devicon-nodejs-plain" name ="logo">NodeJS</i></p>
         </div>
       </div>
     </section>
@@ -65,12 +66,12 @@
         <div class ="blog-content">
           <h1>Blog</h1>
         <div class ="blogpost-1">
-         <a href=hongkong.html><img src="hongkong.jpeg"></a>
+         <a href=hongkong.html><img src="hongkong.jpeg" alt="image of hongkong"></a>
           </div>
            </div>
            </div>
           <div class="button">
-          <a class="btn" href="./tokyo.html">View more</a>
+          <a class="btn" href="./tokyo.html" name="tokyo-blog">View more</a>
           </div>
            </div>
     </section>
@@ -82,15 +83,15 @@
         <h1><i>Let's keep in touch...</i></h1>
         <div class="contact-form">
         <form action="https://formspree.io/xwkqzpqg" method="POST">
-          <!-- <label for="name">Name</label> -->
+
           <input for ="name" type="text" placeholder="Name" name="name" id="name">
-          <!-- <label for ="email">Email Address</label> -->
+
           <input for="email" type="email" placeholder="Email Adress" name="email-address" id="email-address">
+          <!-- for the submit button and text box in the form  -->
           <div class="submit">
-          <!-- <label for="subject">Subject</label> -->
-          <input for="subject" type="text" placeholder="Subject" name="subject" id="subject">
-          <!-- <label for="message">Message</label> -->
-          <textarea id ="message" name=message placeholder="Leave a message....."></textarea>
+
+          <input for ="subject" type="text" placeholder="Subject" name="subject" id ="subject">
+          <textarea id="message" name="message" placeholder="Leave a message....."></textarea>
             <input type="submit" value="Submit" id="submit">
 
             </div>
