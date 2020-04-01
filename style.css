@@ -6,11 +6,6 @@ body {
   
 }
 
-a.hover{
-
-  background-color:#FCFF4F;
-
-}
 nav {
   font-size: 20px;
   text-decoration: none;
@@ -115,7 +110,7 @@ display:flex;
 justify-content: center;
 align-items:center;
 flex-direction:column;
-font-size: 25px;
+font-size:15px;
 margin-top:20px;
 }
 
@@ -159,6 +154,12 @@ margin-top:20px;
   justify-content:center;
 }
 
+.button{
+  margin-top:20px;
+  text-decoration:none;
+  color:black;
+  font-size:20px;
+}
 
 /* contact form header */
 .contact-me {
@@ -225,3 +226,58 @@ form {
   background: #ECEBE4;
   text-align:Center;
 }
+
+@media only screen and (max-width:480px) {
+nav{
+  display:inline-block;
+  height:200px;
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  list-style-type: none;
+  text-decoration:none;
+  text-align:center;
+}
+
+nav .nav-dropdown a{
+  text-decoration:none;
+  font-color:black;
+
+}
+nav .nav-container{
+  display:none;
+}
+
+.about-me-wrapper {
+  display:flex;
+  flex-direction:column;
+}
+#profile-pic {
+  width: 50%;
+  height:30%;
+  box-shadow:none;
+}
+.about-me-content {
+  font-size:15px;
+}
+
+.current-skills h3 {
+  font-size:25px;
+  
+}
+
+.current-skills{
+  font-size:15px;
+  
+}
+
+form {
+  width:250px;
+}
+
+.submit {
+  width:250px;
+}
+
+
